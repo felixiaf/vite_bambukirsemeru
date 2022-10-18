@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const counterUp = window.counterUp.default
     const elFast = document.querySelector( '.counter_fast' )
     const elSlow = document.querySelector( '.counter_slow' )
+    const elFast1 = document.querySelector( '.counter_fast1' )
+    const elSlow1 = document.querySelector( '.counter_slow1' )
     new Waypoint( {
        element: elFast,
        handler: function() {
@@ -46,12 +48,38 @@ document.addEventListener('DOMContentLoaded', function() {
           counterUp( elSlow, {
               delay: 10,
               time: 2000,
-              duration: 5000,
+              duration: 3000,
           })
           this.destroy()
       },
       offset: 'bottom-in-view',
    } )
+
+   new Waypoint( {
+    element: elFast1,
+    handler: function() {
+        counterUp( elFast1, {
+            delay: 10,
+            time: 2000,
+            duration: 2000,
+        })
+        this.destroy()
+    },
+    offset: 'bottom-in-view',
+ } )
+
+   new Waypoint( {
+    element: elSlow1,
+    handler: function() {
+        counterUp( elSlow1, {
+            delay: 10,
+            time: 2000,
+            duration: 3000,
+        })
+        this.destroy()
+    },
+    offset: 'bottom-in-view',
+ } )
   }, false);
   
 
