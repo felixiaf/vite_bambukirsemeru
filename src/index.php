@@ -1,3 +1,10 @@
+<?php
+session_start();
+error_reporting(0);
+include 'db.php';
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
