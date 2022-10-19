@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/iconbambu-01.png" />
     <title>Bambu Ukir Semeru</title>
 
     <!-- Google Font -->
@@ -151,7 +152,7 @@
                           <li><a href="shoping-cart.html" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="fa fa-shopping-bag"></i> <span>3</span></a>
 
-                            <!-- Modal -->
+                            <!-- Modal Shoping Cart -->
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                               <div class="modal-dialog modal-lg modal-dialog-scrollable">
                                 <div class="modal-content">
@@ -267,7 +268,7 @@
                                                 </div>
                                             </div>
                                             <div class="row">
-                                                <div class="col-lg-9">
+                                                <div class="col-lg-12">
                                                     <div class="shoping__cart__btns">
                                                         <a href="#" class="primary-btn cart-btn">CONTINUE SHOPPING</a>
                                                         <a href="#" class="primary-btn cart-btn cart-btn-right"><span class="icon_loading"></span>
@@ -275,7 +276,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div class="col-lg-12">
+                                                <div class="col-lg-12 ms-auto">
                                                     <div class="shoping__checkout">
                                                         <h5>Cart Total</h5>
                                                         <ul>
